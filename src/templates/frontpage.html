@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/frontpage/login" method="POST">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" required><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" required><br>
+    <label for="email">email</label><br>
+    <input type="email" id="email" name="username" required><br>
+    <label for="password">password:</label><br>
+    <input type="password" id="password" name="password" required><br>
+    <input type="submit" name= "sign-up" value="Sign up">
+    <a href="/frontpage/login"><button class="btn btn-primary" formnovalidate>Log in</button></a>
+</form>
+</body>
+</html>
